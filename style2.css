@@ -1,0 +1,43 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap");
+
+:root {
+    --md-dark-color: #1d1d1d;
+    --dark-color: #171717;
+    --light-dark-color: #292929;
+    --yellow-color: #d4aa11;
+  }
+  * {
+    padding: 0;
+    margin: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+
+  body {
+    font-family: "Inter", sans-serif;
+  }
+
+.logotwo{
+    padding: 1rem 0;
+    border-bottom: 1px solid;
+}
+  .logotwo p {
+    font-size: 2rem;
+    color: #fff;
+    font-weight: bold;
+  }
+  .logotwo p span {
+    color: var(--yellow-color);
+  }
+  
+  .logotwo a{
+    font-size: 2rem;
+    color: #fff;
+    font-weight: bold;
+    float: right;
+    
+    
+  
+  /*Need to adjust this text to the right of logo*/
+  }
+  
